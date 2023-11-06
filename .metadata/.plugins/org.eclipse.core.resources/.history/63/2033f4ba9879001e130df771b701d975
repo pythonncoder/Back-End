@@ -1,0 +1,30 @@
+package first;
+
+import java.util.Iterator;
+import java.util.List;
+import java.util.Stack;
+
+public class stack {
+
+	public static void main(String[] args) {
+		
+		
+		Stack<Integer> l = new Stack<>();
+		l.push(12);
+		l.push(20);
+		l.add(5);
+		l.push(8);   // adding of elements in stack
+		
+		System.out.println(l.capacity()); 
+		
+		Iterator i = l.iterator();
+		while(i.hasNext()) {
+			System.out.print(i.next() + " ");
+		}
+		
+		
+		
+
+	}
+
+}

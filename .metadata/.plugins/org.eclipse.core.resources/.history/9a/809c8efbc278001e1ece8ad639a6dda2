@@ -1,0 +1,27 @@
+package first;
+
+import java.util.Scanner;
+
+public class ReverseString {
+
+	public static void main(String[] args) {
+		
+		Scanner Sc = new Scanner(System.in);
+		System.out.println("Enter the String:");
+		String  str = Sc.nextLine();
+		
+		String[] str1 = null;
+		 str1 = str.split(" ");
+		 int len = str.length();
+		 
+		StringBuffer s = new StringBuffer();
+		
+		for (int i=len;i<str1.length;i--) {
+			System.out.println(s.charAt(i));
+		}
+		
+		 
+		 
+	}
+
+}

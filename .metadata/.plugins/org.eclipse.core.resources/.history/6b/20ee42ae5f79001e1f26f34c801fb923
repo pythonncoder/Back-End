@@ -1,0 +1,30 @@
+package first;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ArrayList1  {
+
+	public static void main(String[] args) {
+		
+		
+		List<String> l = new ArrayList<String>();
+		
+		List<String> a = new LinkedList<String>();
+		a.add("praveen");
+		a.add("venky");
+		
+		l.add(0,"Naveen");
+		l.add("nknkn");
+		l.addAll(a);
+		
+		for (String l1:l) {
+			System.out.println(l1);
+		}
+		
+		
+
+	}
+
+}

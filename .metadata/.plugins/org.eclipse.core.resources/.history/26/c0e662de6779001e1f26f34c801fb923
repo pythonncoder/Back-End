@@ -1,0 +1,61 @@
+package first;
+
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+
+public class ArrayList1  {
+
+	public static void main(String[] args) {
+		
+		
+		// List ---> ArrayList ,LinkedList,Stack,Queue
+		
+		List<String> l = new ArrayList<String>();  // Creation of arrayList
+		
+		List<String> a = new LinkedList<String>(); //Creation of LInkedLIst
+		
+		a.add("praveen"); // adding of elements
+		a.add("venky");
+		a.add(1,"Swetha");
+		for ( String a1:a) {
+			System.out.println(" a List :"+a1);
+		}
+		
+	
+		
+		l.add(0,"Naveen"); //adding of elements in index wise order
+		l.add("nknkn");
+		
+		
+		l.addAll(a);   //add the collection of data
+		
+	    
+		
+		l.addAll(4, a); // Adding of collection in index order
+		
+		System.out.println( " Contains of a :"+ a.contains("venky"));    //it contains the element in list
+		l.containsAll(a);  // &&&&&&&&&&&&&&&
+		System.out.println(" l array list contains a:"+l.equals(a)); 
+	    System.out.println("return the specified index"+l.get(4));	  // return the element in the specified index
+	    //  l.getClass()   &&&&&&&&&&&&&&&
+	    System.out.println(" Generating hashcode in list:"+l.hashCode());   // hashcode of l 
+	    System.out.println(a.hashCode());   //hashcode of a
+	    System.out.println("indexof elemts:"+ l.indexOf("nknkn"));  //index of elements
+	    System.out.println("indexof elemts:"+ l.indexOf("Naveen")); 
+	    System.out.println("list is empty:"+  l.isEmpty());  
+	   
+	    
+	    
+	   
+		
+		
+		for (String l1:l) {
+			System.out.println("L values:"+l1);
+		}
+		
+		
+
+	}
+
+}

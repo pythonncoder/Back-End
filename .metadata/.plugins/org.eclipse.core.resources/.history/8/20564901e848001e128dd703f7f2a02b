@@ -1,0 +1,26 @@
+// pentagon formula 
+package first;
+import java.util.*;
+
+
+public class pentagon {
+	
+	public int pentagons(int s,int a) {
+		
+		int sum = (5.0/2.0) * s * a ;
+		
+		
+		
+	}
+	
+	
+	public static void main(String[] args) {
+		Scanner sc= new Scanner(System.in);
+		System.out.println("Enter a number:");
+		int s = sc.nextInt();
+		System.out.println("enter the second number:");
+		int a = sc.nextInt();
+		
+	}
+
+}

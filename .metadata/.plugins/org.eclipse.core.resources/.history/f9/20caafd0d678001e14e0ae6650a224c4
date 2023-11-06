@@ -1,0 +1,34 @@
+package first;
+
+public class StringMultiword {
+	public static void main(String[] args) {
+		
+		String str = "Naveen is a good ";
+		String space = " ";
+		String[] splitstring = null;
+		
+	
+	
+		splitstring = str.split(space);
+		System.out.println(splitstring.length);
+		
+		StringBuilder sb = new StringBuilder();
+		
+		for(int i=splitstring.length;i>=0;--i) {
+			sb.append(splitstring[i]);
+			
+			System.out.println(sb);
+//			System.out.println(sb.append(i));
+			
+		}
+	
+		
+		for (int i=0;i<str.length();i++) {
+			
+			System.out.print(str.charAt(i));
+		}
+		
+		
+	}
+
+}

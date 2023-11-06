@@ -1,0 +1,20 @@
+// pentagon formula 
+package first;
+import java.util.*;
+
+
+public class pentagon {
+	static int  pentagon = 0 ;
+	Scanner sc= new Scanner(System.in);
+	System.out.println("enter a number")
+	
+	
+	
+	
+	  public  pentagon(){
+		  
+		   
+		
+	}
+
+}
